@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, rgb(245, 150, 150), white);
+  background-repeat: no-repeat;
+}
+
+/*#navbar{
+    background-color: transparent;
+    padding: 0 9% 0;
+    background: linear-gradient(to right, #e53829, white);
+    background-repeat: no-repeat;
+}*/
+#logo img {
+  width: 190px;
+  margin-top: 3px;
+}
+.nav-item .nav-link {
+  color: black;
+  font-size: 16px;
+  font-weight: 550;
+  transition: all 0.5s;
+}
+.nav-item .nav-link:hover{
+ color: white;
+}
+.home {
+  padding: 5px 11% 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 0;
+}
+.home img {
+  flex: 1 1 300px;
+}
+.home .img img {
+  margin-left: 60px;
+}
+.home-content {
+  flex: 1 1 400px;
+  margin-top: 40px;
+}
+.home-content h3 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 870px) {
+  .home .img img {
+    margin-left: 0;
+  }
+}
+/*top-section*/
+.top-section{
+    padding: 10px 11% 100px;
+}
+.top-section h5{
+    color: #e53a29;
+    
+}
+.top-section h3{
+    
+    font-weight: 600;
+}
+.top-section .row{
+    margin-top: 30px;
+    align-items: center;
+}
+.top-section .row .card img{
+    width: 200px;
+    margin: auto;
+}
+
+.top-section .card-body h1{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/* our menu*/
+.menu {
+    padding: 100px 11% 100px;
+  }
+  
+  /*order*/
+  .order{
+    padding: 100px 11% 100px;
+  }
+  /*review*/
+  .review{
+    padding: 100px 11% 100px;
+  }
+ .contact{
+    padding: 100px 11% 100px;
+ }
+ .f-content {
+    cursor: pointer;
+  }
+  .f-content i {
+    transition: all 0.5s;
+  }
+  .f-content i:hover {
+    background: #e53a29;
+    color: white;
+  }
